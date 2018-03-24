@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.univcollege.konvertervalyut.Setting">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:background="#dedede"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:weightSum="1.5">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#232323"
+                android:text="Decimal Place"
+                android:padding="10dp"
+                android:textSize="16sp"/>
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:entries="@array/decimal"
+                android:id="@+id/settingSpinner"
+                android:padding="10dp"></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:weightSum="1.5">
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/settingCheckBox2"
+                android:text="Rounding"
+                android:textSize="16sp"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:entries="@array/rounding"
+                android:id="@+id/settingSpinner2"
+                android:padding="10dp"
+                android:saveEnabled="false"></Spinner>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Changes"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:id="@+id/resetChanges"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+</FrameLayout>

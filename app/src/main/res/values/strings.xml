@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Конвертер Валют</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="currency">
+        <item>Birr</item>
+        <item>Chinese Yuan</item>
+        <item>Dollar</item>
+        <item>Euro</item>
+        <item>Japanese Yen</item>
+        <item>Pound</item>
+        <item>Ruble</item>
+    </string-array>
+    <string-array name="currency2">
+        <item>Dollar</item>
+        <item>Birr</item>
+        <item>Chinese Yuan</item>
+        <item>Euro</item>
+        <item>Japanese Yen</item>
+        <item>Pound</item>
+        <item>Ruble</item>
+    </string-array>
+    <string-array name="currencyList">
+        <item>Birr</item>
+        <item>Chinese Yuan</item>
+        <item>Euro</item>
+        <item>Japanese Yen</item>
+        <item>Pound</item>
+        <item>Ruble</item>
+    </string-array>
+    <string-array name="rate">
+        <item>23.01</item>
+        <item>6.8985</item>
+        <item>1</item>
+        <item>0.9209</item>
+        <item>113.335</item>
+        <item>0.7774</item>
+        <item>57.157</item>
+    </string-array>
+    <string-array name="decimal">
+        <item>0.0</item>
+        <item>0.1</item>
+        <item>0.11</item>
+        <item>0.111</item>
+    </string-array>
+    <string-array name="rounding">
+        <item>1937</item>
+        <item>1940</item>
+        <item>1900</item>
+    </string-array>
+</resources>
