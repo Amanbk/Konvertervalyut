@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         mViewPager= (ViewPager) findViewById(R.id.viewPager);
         mViewPagerAdapter= new ViewPagerAdapter(getSupportFragmentManager());
 
-        mViewPagerAdapter.addFragments(new Home(),"конвертер");
-        mViewPagerAdapter.addFragments(new List(),"Список валют");
-        mViewPagerAdapter.addFragments(new Setting(),"настройка");
+        mViewPagerAdapter.addFragments(new Home(),"Converter");
+        mViewPagerAdapter.addFragments(new List(),"Rate");
+        mViewPagerAdapter.addFragments(new Setting(),"Setting");
         mViewPager.setAdapter(mViewPagerAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
 
